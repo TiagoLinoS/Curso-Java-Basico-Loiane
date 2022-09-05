@@ -1,0 +1,18 @@
+package com.tiago.cursojava.aula11;
+
+public class CuriosidadeInteiros {
+
+	public static void main(String[] args) {
+
+
+		int var1 = 2147483647; //valor máximo de um int
+		int var2 = 1;
+		//Qual valor dará da soma de var1 e var2?
+		
+		System.out.println(var1 + var2);
+		/*Ele dará o melhor valro de int! Porque no Java os INTEIROS funcionam como uma
+		roleta, então quando chega no final ele volta para o começo!*/
+
+	}
+
+}

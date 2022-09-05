@@ -1,0 +1,12 @@
+package com.tiago.cursojava.atividades01;
+
+public class Atividade {
+	public static void main(String[] args) {
+		/*Atividades Referentes as aulas 11, 12 e 13*/
+		
+		/*Questão 01*/
+		System.out.println("Alo mundo");
+		
+		
+	}
+}

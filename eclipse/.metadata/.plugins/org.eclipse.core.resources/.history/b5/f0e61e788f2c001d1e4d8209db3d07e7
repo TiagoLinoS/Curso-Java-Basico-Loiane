@@ -1,0 +1,29 @@
+package com.tiago.cursojava.atividades01;
+import java.util.Scanner;
+
+public class Atividade {
+	public static void main(String[] args) {
+		/*Atividades Referentes as aulas 11, 12 e 13*/
+		
+		Scanner scan = new Scanner(System.in);
+		
+		/*Questão 01
+		System.out.println("Alo mundo");
+		*/
+		
+		/*Questão 02
+		System.out.println("Digite um número:");
+		int numero = scan.nextInt();
+		System.out.println("O número informado foi " + numero);
+		*/
+		
+		/*Questão 03
+		System.out.println("Digite dois números:");
+		int numero01, numero02;
+		numero01 = scan.nextInt();
+		numero02 = scan.nextInt();
+		System.out.println("A soma dos números digitados é " + (numero01+numero02));
+		*/
+		
+	}
+}

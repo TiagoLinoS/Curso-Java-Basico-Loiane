@@ -1,0 +1,13 @@
+package com.tiago.cursojava.aula11;
+
+public class CuriosidadeInteiros {
+
+	public static void main(String[] args) {
+
+
+		int var1 = 2147483647; //valor máximo de um int
+		long var2 = 1;
+
+	}
+
+}

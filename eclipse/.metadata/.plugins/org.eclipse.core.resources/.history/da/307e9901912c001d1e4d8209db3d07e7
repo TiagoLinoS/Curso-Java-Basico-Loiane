@@ -1,0 +1,59 @@
+package com.tiago.cursojava.atividades01;
+import java.util.Scanner;
+
+public class Atividade {
+	public static void main(String[] args) {
+		/*Atividades Referentes as aulas 11, 12 e 13*/
+		
+		Scanner scan = new Scanner(System.in);
+		
+		/*Questão 01
+		System.out.println("Alo mundo");
+		*/
+		
+		/*Questão 02
+		System.out.println("Digite um número:");
+		int numero = scan.nextInt();
+		System.out.println("O número informado foi " + numero);
+		*/
+		
+		/*Questão 03
+		System.out.println("Digite dois números:");
+		int numero01, numero02;
+		numero01 = scan.nextInt();
+		numero02 = scan.nextInt();
+		System.out.println("A soma dos números digitados é " + (numero01+numero02));
+		*/
+		
+		/*Questão 04
+		System.out.println("Digite as quantros notas dos bimestres:");
+		double nota01, nota02, nota03, nota04;
+		nota01 = scan.nextDouble();
+		nota02 = scan.nextDouble();
+		nota03 = scan.nextDouble();
+		nota04 = scan.nextDouble();
+		System.out.println("A média das notas é " + (nota01+nota02+nota03+nota04)/4);
+		*/
+		
+		/*Questão 05
+		System.out.println("Digite a quantidade de metros:");
+		double metros;
+		metros = scan.nextDouble();
+		System.out.println(metros + " metros dá " + (metros*100) + " centímetros");
+		*/
+		
+		/*Questão 06
+		System.out.println("Digite o raio do círculo:");
+		double raio = scan.nextDouble();
+		System.out.println("A área desse círculo é " + (3.14*(raio*raio)));
+		*/
+		
+		/*Questão 07*/
+		System.out.println("Digite o lado do quadrado:");
+		double ladoQuadrado, area; 
+		ladoQuadrado = scan.nextDouble();
+		area = ladoQuadrado * ladoQuadrado;
+		System.out.println("A área desse quadrado é " + area);
+		System.out.println("E seu dobro é " + (area*area));
+	}
+}

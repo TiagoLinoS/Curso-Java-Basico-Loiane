@@ -1,0 +1,14 @@
+package com.tiago.cursojava.aula11;
+
+public class SequenciaEscape {
+
+	public SequenciaEscape() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

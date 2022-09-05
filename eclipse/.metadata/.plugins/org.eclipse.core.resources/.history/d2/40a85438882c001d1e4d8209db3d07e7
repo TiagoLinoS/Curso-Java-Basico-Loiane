@@ -1,0 +1,29 @@
+package com.tiago.cursojava.aula13;
+
+public class OperadoresAritmeticos {
+
+	public static void main(String[] args) {
+
+		int resultado = 1 + 2;
+		System.out.println(resultado);
+		resultado = resultado - 1;
+		System.out.println(resultado);
+		resultado = resultado * 2;
+		System.out.println(resultado);
+		resultado = resultado / 2;
+		System.out.println(resultado);
+		resultado = resultado + 8;
+		System.out.println(resultado);
+		resultado = resultado % 7;
+		System.out.println(resultado);
+		
+		
+		//Concatenação
+		String primeiraParte = "Esta é";
+		String segundaParte = "uma String concatenada.";
+		String concatenacao = primeiraParte + segundaParte;
+		System.out.println(concatenacao);
+
+	}
+
+}

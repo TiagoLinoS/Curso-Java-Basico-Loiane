@@ -1,0 +1,17 @@
+package com.tiago.cursojava.aula11;
+
+public class CuriosidadeInteiros {
+
+	public static void main(String[] args) {
+
+
+		int var1 = 2147483647; //valor máximo de um int
+		long var2 = 100;
+		//Qual valor dará da soma de var1 e var2?
+		
+		System.out.println(var1 + var2);
+		
+
+	}
+
+}
